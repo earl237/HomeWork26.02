@@ -21,7 +21,7 @@ int getEvenNumbers(int[] arrayNumb)
     int count = 0;
 for (int k = 0; k < arrayNumb.Length; k++)
 {
-    if (array[k] % 2 == 0)
+    if (arrayNumb[k] % 2 == 0)
         count++;
 }
 return count;
